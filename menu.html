@@ -1,0 +1,87 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <a href="#" id="brand-logo">Olivers</a>
+        </div>
+        <nav>
+            <ul id="nav-items">
+                <li class="nav-list"><a class="nav-links" href="home.html">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="aboutUs.html">About Us</a></li>
+                <li class="nav-list"><a class="nav-links" href="howWeStarted.html">How We Started</a></li>
+                <li class="nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
+                <li class="nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
+                <li class="nav-list"><a class="nav-links" href="Cart.html">Cart</a></li>
+                <li class="nav-list"><a class="nav-links" href="services.html">Our Services</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Our Menu</h1>
+        </div>
+    </div>
+        <section class="menu">
+            <!-- Sample menu items with "Add to Cart" buttons -->
+            <div class="item">
+                <img src="alfredo.jpg" alt="Alredo Pasta">
+                <h3>Alfredo Pasta</h3>
+                <p>Indulge in the creamy perfection of our Alfredo Pasta, crafted with a velvety parmesan cheese sauce, perfectly cooked fettuccine, and a hint of garlic. Topped with fresh parsley, this classic dish is comfort food at its finest. Add grilled chicken or shrimp for an extra burst of flavor.</p>
+                <p style="font-weight: bolder; color: #ffffff; margin-top:6px;">Price: $11</p>
+                <button onclick="addToCart('Alredo Pasta', 11)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="morrocanchicken.jpg" alt="Moroccan Chicken">
+                <h3>Moroccan Chicken</h3>
+                <p>A taste of Morocco on your plate! Our Moroccan Chicken is a rich and aromatic dish, featuring tender, spiced chicken marinated in a blend of warm spices and slow-cooked to perfection. Served with a side of herbed couscous and roasted vegetables for a wholesome, flavorful meal.</p>
+                <p style="font-weight: bolder; color: #ffffff; margin-top:6px;">Price: $12</p>
+                <button onclick="addToCart('Moroccan Chicken', 12)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="clubsandwich.jpg" alt="Olivers Club Sandwich">
+                <h3>Olivers Club Sandwich</h3>
+                <p>A classic favorite with a twist! Our Club Sandwich is stacked high with layers of roasted chicken, crispy bacon, fresh lettuce, juicy tomatoes, and creamy mayonnaise, all tucked between perfectly toasted bread. Served with a side of golden fries or a fresh salad.</p>
+                <p style="font-weight: bolder; color: #ffffff; margin-top:6px;">Price: $10</p>
+                <button onclick="addToCart('Olivers Club Sandwich', 10)">Add to Cart</button>
+            </div>
+            
+            <div class="item">
+                <img src="mint.jpg" alt="Mint Margharita">
+                <h3>Mint Margharita</h3>
+                <p>Cool, refreshing, and absolutely invigorating! Our Mint Margarita is a zesty blend of fresh mint leaves, tangy lime juice, and a touch of sweetness, served chilled with a hint of fizz. The perfect drink to uplift your mood any time of the day.</p>
+                <p style="font-weight: bolder; color: #ffffff; margin-top:6px;">Price: $4</p>
+                <button onclick="addToCart('Mint Margharita', 4)">Add to Cart</button>
+            </div>
+    
+            <div class="item">
+                <img src="cremebrule.jpg" alt="Creme Brule">
+                <h3>Creme Brule</h3>
+                <p>Satisfy your sweet tooth with this timeless French dessert. Our Crème Brûlée features a silky, creamy custard base topped with a perfectly caramelized sugar crust. Crack into the golden topping and savor every spoonful of this delightful treat.</p>
+                <p style="font-weight: bolder; color: #ffffff; margin-top:6px;">Price: $5</p>
+                <button onclick="addToCart('Creme Brule', 5)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022, Olivers Cafe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
+
+      

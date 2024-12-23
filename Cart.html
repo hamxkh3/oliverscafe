@@ -1,0 +1,56 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Cart.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <a href="#" id="brand-logo">Olivers</a>
+        </div>
+        <nav>
+            <ul id="nav-items">
+                <li class="nav-list"><a class="nav-links" href="home.html">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="aboutUs.html">About Us</a></li>
+                <li class="nav-list"><a class="nav-links" href="howWeStarted.html">How We Started</a></li>
+                <li class="nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
+                <li class="nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
+                <li class="nav-list"><a class="nav-links" href="Cart.html">Cart</a></li>
+                <li class="nav-list"><a class="nav-links" href="services.html">Our Services</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>View Your Cart</h1>
+            <div class="line-bottom"></div>
+        </div>
+    </div>
+
+        <h2 style="font-size: 3rem;">Selected Items</h2>
+        <table id="cart-table">
+            <!-- Cart items will be displayed here -->
+        </table>
+
+        <h2>Total: $<span id="total">0</span></h2>
+        <button id="Checkout">Checkout</button>
+    </main>
+
+    <script src="common.js"></script>
+    <script src="cart.js"></script>
+
+    <footer>
+        <p>&copy; 2022, Olivers Cafe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

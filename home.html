@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-name">
+            <a href="#" id="brand-logo">Olivers</a>
+        </div>
+        <nav>
+            <ul id="nav-items">
+                <li class="nav-list"><a class="nav-links" href="home.html">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="aboutUs.html">About Us</a></li>
+                <li class="nav-list"><a class="nav-links" href="howWeStarted.html">How We Started</a></li>
+                <li class="nav-list"><a class="nav-links" href="menu.html">Menu</a></li>
+                <li class="nav-list"><a class="nav-links" href="contact.html">Contact Us</a></li>
+                <li class="nav-list"><a class="nav-links" href="Cart.html">Cart</a></li>
+                <li class="nav-list"><a class="nav-links" href="services.html"> Our Services</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>The Best in Town</h1>
+        </div>
+    </div>
+
+        
+        <section class="info">
+            <img src="homepic2.jpg" alt="Portrait Image" class="portrait-image">
+            <div class="our-story-content">
+                <h2>History</h2>
+                <p>Our story began in 2010 with a dream to create a warm and inviting space where people could unwind, connect, and enjoy a perfect cup of coffee. Nestled in the heart of [your city/town], Oliver's Cafe was born out of a deep love for exceptional coffee, hearty meals, and memorable experiences.</p>
+            <p>The cafe is named after Oliver, the founder's beloved golden retriever, whose loyalty, warmth, and joy inspired the essence of our establishment. Just like Oliver, our cafe aims to bring happiness to everyone who steps through our doors.</p>
+            <p>Over the years, we have become more than just a cafe; we are a community hub where friends gather, families celebrate, and individuals find their daily dose of comfort. From our carefully curated menu of freshly brewed coffees, homemade pastries, and delicious meals to our cozy ambiance, every detail reflects our commitment to quality and hospitality.</p>
+            </div>
+        </section>
+
+
+        <section class="our-interior-section">
+            <div class="our-interior-content">
+                <h2>Our Cafe from Inside</h2>
+                <p>We make sure our guests get the best ambiance so we have made our interior the best looking!</p>
+                <img src="homepic1.webp" alt="Interior Image 1" class="interior-image">
+            
+            </div>
+        </section>
+
+
+        </section>
+
+        <!-- Location Section -->
+<section class="location-section">
+    <div class="map-container">
+        <!-- Replace YOUR_GOOGLE_MAPS_API_KEY with your actual API key -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.9613388910536!2d67.03449351439474!3d24.88067108405768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f06bb204ce7%3A0xa5a69459e2993ab!2sYour%20Cafe%20Name!5e0!3m2!1sen!2suk!4v1647248494159!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="location-content">
+        <h2>Location</h2>
+        <p>561, Tipu Sultan Road, Karachi, 75070</p>
+        <p>Phone: (051) 672-9602</p>
+        <p>Email: info@olivers.com</p>
+        <h2>Socials</h2>
+        <div class="social-icons">
+            <!-- Add your social media links here -->
+            <!-- Replace 'fab fa-facebook' with the class for your chosen social icon -->
+<a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+</section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2022, Olivers Cafe. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+
+
+            event.preventDefault();
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let message = document.getElementById('message').value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill out all fields before submitting.");
+            } else {
+                alert("Your message has been sent!");
+                // Add code here to submit the form to the server if the validation is successful
+            }
+        });
+    // JavaScript to toggle the menu on small screens
+    
+    </script>
+</body>
+
+</html>
